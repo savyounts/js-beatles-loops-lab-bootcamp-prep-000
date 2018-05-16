@@ -1,6 +1,6 @@
 function theBeatlesPlay(musicians, instruments) {
   var array = []
-  for (var i=0; i<4; i++){
+  for (var i=0; i<facts.length; i++){
   array.push (musicians[i] +" plays " + instruments[i]);
   }
   return array
@@ -9,7 +9,7 @@ function theBeatlesPlay(musicians, instruments) {
 function johnLennonFacts(facts){
   var i = 0
   var array =[]
-  while(i<2) {
+  while(i<facts.length) {
   array.push (facts[i]+"!!!")
     i++
   }
