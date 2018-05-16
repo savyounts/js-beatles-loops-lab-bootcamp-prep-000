@@ -10,7 +10,7 @@ function johnLennonFacts(facts){
   var i=0
   while(i<4) {
     var woo = !!!
-    array[i]+woo
+    facts[i]+woo
   }
   return array
 }
